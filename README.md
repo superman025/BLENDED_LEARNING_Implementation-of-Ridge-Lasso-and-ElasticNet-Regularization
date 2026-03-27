@@ -9,10 +9,17 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import Libraries: Bring in the necessary libraries such as NumPy, Pandas, Matplotlib, and scikit-learn
+2. Load the Dataset: Load the car price dataset into your environment.
+3. Data Preprocessing: Handle any missing data and encode categorical variables as needed.
+4. Define Features and Target: Split the dataset into features (X) and the target variable (y), where the target variable is the car price.
+5. Split Data: Divide the dataset into training and testing sets.
+6. Build Ridge, Lasso, and ElasticNet Models: Initialize Ridge Regression, Lasso Regression, and      ElasticNet Regression models.
+7. Train the Models: Fit the Ridge, Lasso, and ElasticNet models to the training data
+8. Evaluate Performance: Assess the models’ performance using cross-validation or evaluation metrics such as Mean Squared Error (MSE) and R² score
+9. Display Model Parameters: Output the coefficients and intercept for each model.
+10. Make Predictions & Compare: Predict car prices using the trained models and compare the predicted values with the actual values.
+
 
 ## Program:
 ```
